@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>测试页面</title>
+    <style>
+        .cl {border: 1px solid red;background: #000;}
+    </style>
+</head>
+<body>
+    <div id="id" class="cl">23</div>
+	<script data-debug="1" src="http://10.200.193.131:8089/dubug.js"></script>
+    <script>
+        // MDebug({a:1, b: undefined, c: null, d:"中文", g : "3", h : [2,34]});
+        MDebug([1,2,3,4]);
+        // MDebug("我是字符串", function(res){
+        // }, 2000);
+        // MDebug(true);
+        // MDebug.getES("id", "background-color");
+        // MDebug.getES(document.getElementById("id"));
+        // MDebug.getES($("#id"));
+        // MDebug.getES($(".cl"));
+
+    </script>
+
+</body>
+</html>
