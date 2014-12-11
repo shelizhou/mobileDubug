@@ -1,7 +1,7 @@
 # 移动端的调试输出
 
 ## 如何使用
-- 启动server.js
+- 启动server.js (默认启动端口是: 8089, 支持传参)
 
 	```
 		node server.js
@@ -39,3 +39,8 @@
 - MDebug.getES(ele, styleName)
 	- ele: 元素ID、或原生dom对象、或jquery对象 --必参
 	- styleName: 元素的css属性 
+
+## 另外
+- 该server.js支持前端基本文件服务器功能，无缓存机制
+
+
