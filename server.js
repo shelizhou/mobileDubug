@@ -102,6 +102,6 @@ for (var i = 0; i < OS.networkInterfaces().en0.length; i++) {
         IPv4 = OS.networkInterfaces().en0[i].address;
     }
 }
-console.log("Server running at http://0.0.0.0:" + PORT + "/");
-console.log("MDbugjs: <script data-debug='1' src='http://" + IPv4 + ":" + PORT + "/dubug.js'></script>");
+console.log("Server running at http://" + IPv4 + ":" + PORT + "/");
+console.log("MDbugjs: <script data-debug='1' src='http://" + IPv4 + ":" + PORT + "/debug.js'></script>");
 
