@@ -86,6 +86,8 @@ SERVER.on('request', function(req, res) {
             // console.log( COLORS.green(JSON.stringify(info)) );
             console.log("-----------" + new Date() + "---------- say:");
             console.log(info);
+            console.log("");
+            console.log("");
 
             setTimeout(function(){
     		    res.end("none");
